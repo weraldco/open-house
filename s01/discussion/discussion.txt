@@ -1,3 +1,10 @@
 Hello World
 
 Welcome to Zuitt Open House!
+This is the new added content for the discussion text file.
+To tracked changes in the file.
+
+Topics in this ZOH:
+1. Git
+2. HTML
+3. CSS
