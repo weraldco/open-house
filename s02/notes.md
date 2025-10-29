@@ -1,6 +1,10 @@
-## Basic HTML
+# Basic HTML
+
+## HTML
 
 - structure of a webpage
+
+## LINKS
 
 **_absolute link_** is an outside source link, like google.com, meta.com
 
