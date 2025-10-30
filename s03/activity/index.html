@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My portfolio</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/mystyle.css" />
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
+		</style>
+	</head>
+	<!-- 1. Copy your previous activity folder from s02, in your s03 folder.  -->
+	<!-- 2. The best practice in styling a page is in the use of External CSS 	
+	 	Remove ALL align attributes in our tags in ALL elements. • Remove all <br /> tags and use margins instead.  -->
+
+	<body>
+		<nav id="header">
+			<h1 class="nav-title">My Portfolio Page</h1>
+			<!-- 6. Add a class called nav-link to all anchor tags. -->
+			<a class="nav-link" href="#landing">Home</a>
+			<a class="nav-link" href="#tools">Tools</a>
+			<a class="nav-link" href="#projects">Projects</a>
+			<a class="nav-link" href="#contact">Contact</a>
+		</nav>
+		<div id="top">
+			<a href="#bottom">Go to bottom</a>
+		</div>
+		<div id="landing">
+			<!-- 10. Add an id with value, "profile" to your profile picture. -->
+			<img
+				width="400"
+				src="./images/profile-pic.jpg"
+				alt="My profile picture"
+				id="profile"
+			/>
+			<!-- 12. Add an id with value, "name", to the heading with your
+			name. -->
+			<h1 id="name">Werald Coronel Opolento</h1>
+
+			<!-- 14. Add an id with value, "title", to the heading with text Web Developer.  -->
+			<h2 id="title">Web Developer</h2>
+
+			<!-- 16. Add an id with value, "intro", to the paragraph with your
+			introduction. -->
+			<p id="intro">
+				I'm Werald and I love to code and build things that helps human in daily
+				life to make the task easier.
+			</p>
+		</div>
+
+		<div id="tools">
+			<!-- 19. Add an id with value, "tools-title", to the heading with text Tools I Use.  -->
+			<h1 id="tools-title">Tools I Use</h1>
+
+			<!-- 21. Add a class with value, "tools-img", to each img inside the tools div.  -->
+			<img class="tools-img" src="./images/html55.png" alt="HTML" />
+			<img class="tools-img" src="./images/css33.png" alt="CSS" />
+			<img
+				class="tools-img"
+				src="./images/vscode.webp"
+				alt="Visual studio code"
+			/>
+			<img class="tools-img" src="./images/git22.png" alt="Git" />
+		</div>
+
+		<div id="projects">
+			<h1>Projects</h1>
+
+			<!-- 24. Add a class called card to each of the divs that contains our projects. -->
+			<div class="card">
+				<h2>Project 1</h2>
+				<!-- 26. Add a class called card-img to each of the project images. -->
+				<img class="card-img" src="./images/project1.webp" alt="" />
+
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
+					quaerat est omnis, nihil a iste quasi modi dolorem, voluptates dolorum
+					dolore ex totam reprehenderit numquam impedit temporibus ratione sint
+					aut!
+				</p>
+			</div>
+
+			<div class="card">
+				<h2>Project 2</h2>
+				<img class="card-img" src="./images/project2.webp" alt="" />
+
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
+					quaerat est omnis, nihil a iste quasi modi dolorem, voluptates dolorum
+					dolore ex totam reprehenderit numquam impedit temporibus ratione sint
+					aut!
+				</p>
+			</div>
+
+			<div class="card">
+				<h2>Project 3</h2>
+				<img class="card-img" src="./images/project3.webp" alt="" />
+
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
+					quaerat est omnis, nihil a iste quasi modi dolorem, voluptates dolorum
+					dolore ex totam reprehenderit numquam impedit temporibus ratione sint
+					aut!
+				</p>
+			</div>
+		</div>
+
+		<div id="bottom"><a href="#header">Go back to top</a></div>
+
+		<footer id="contact">
+			<a href="https://facebook.com" target="_blank">Facebook</a>
+			<a href="https://linkedin.com" target="_blank">LinkedIn</a>
+			<a href="https://github.com" target="_blank">GitHub</a>
+			<a href="https://gitlab.com" target="_blank">GitLab</a>
+		</footer>
+		<!-- 29. Update your Github repository and push to git with the commit message of Add activity code s03. 
+
+		30. Add the repo link in this form. -->
+	</body>
+</html>

@@ -1,0 +1,102 @@
+/*
+Universal Selector
+*/
+
+* {
+	font-family: 'Courier New', monospace;
+
+	/*CSS Reset*/
+
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/*Tag Selector*/
+h1 {
+	font-family: 'Tahoma', sans-serif;
+}
+
+body {
+	/*background-color: skyblue;*/
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/43/1003/707/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg);
+	height: 20rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/*	Value: repeat, no-repeat, repeat-x, repeat-y, space, round*/
+
+/*	values: auto, contain, 100%, 60px, 30px*/
+
+/*	values: 10% 40%, 50px 100px, left bottom */
+section {
+	text-align: center;
+}
+
+/*Class Selector*/
+.nav-link {
+	font-size: 18px;
+}
+
+nav {
+	background-color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+.title {
+	/*color: green !important;
+*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#hello {
+	color: black;
+	font-size: 3rem;
+}
+
+/* 3rem or 3 * 16  */
+
+#logo {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.module-card {
+	height: 350px;
+	width: 800px;
+	padding: 20px;
+	border: 2px solid black;
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#modules {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#moduleHeader {
+	margin-top: 30px;
+}
+
+.module-image {
+	height: 200px;
+	width: 200px;
+}

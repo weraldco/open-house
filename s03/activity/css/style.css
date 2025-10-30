@@ -1,0 +1,126 @@
+/* 3. Add CSS reset using a universal selector.  */
+
+/* 4. Update the fonts of all elements using the universal selector. •Don't use
+Arial or Times New Roman */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+
+/* 5. Using the external CSS, style the nav element. 
+    • Add some paddings on all sides at least 16px 
+    • Add a bottom margin of at least 4px 
+    • Add any background color except black or white */
+nav {
+	padding: 16px;
+	margin-bottom: 4px;
+	background-color: rgb(21, 15, 40);
+	text-align: center;
+	color: white;
+}
+
+/* 7. Style the class nav-link • Add some margins on the left and right side • Add any text color  */
+.nav-link {
+	margin: 0 15px;
+	color: white;
+}
+
+/* 8. Using a tag selector, update all anchor tags and remove the text decoration. */
+a {
+	text-decoration: none;
+}
+
+/* 9. In the CSS, style the landing div to center all text inside it. */
+#landing {
+	text-align: center;
+}
+
+/* 11. In the CSS,
+style the profile id: • Set its height and width to at least 300px Add margins
+at the top and bottom  */
+#profile {
+	height: 300px;
+	width: 300px;
+	margin: 20px 0;
+}
+
+/* 13. In the CSS, style the name heading: • Add some margins at the top and bottom */
+#name {
+	margin: 20px 0;
+	font-family: 'Sora', sans-serif;
+}
+
+/* 15. In the CSS, style the title heading: • Add some margins at the top • Add
+some margins at the bottom */
+#title {
+	margin: 20px 0;
+}
+
+/* 17. In the CSS, style your intro paragraph: • Set the width at least 200px • Set the margins as auto to center it within its parent  */
+#intro {
+	width: 200px;
+	margin: auto;
+}
+
+/* 18. Style the "tools" div: • Center all text inside it • Add some margins at the top and bottom */
+#tools {
+	text-align: center;
+	margin: 60px 0;
+}
+
+/* 20. In the CSS, style the tools-title heading: • Add some margins at the bottom. */
+#tools-title {
+	margin-bottom: 20px;
+}
+
+/* 22. In the CSS, style the tools-img class: • Set its height and width to at
+least 100px • Add some margins at the left and right  */
+
+.tools-img {
+	height: 100px;
+	width: 100px;
+	margin: 0 20px;
+}
+
+/* 23. Using the external CSS, style the projects div. •Center its contents using text-align  */
+
+#projects {
+	text-align: center;
+}
+
+/* 25. Style the card class: Add any background color except white or black. Add a height of 400px • Add a width of 600px • Add auto margin on the left and right side.  */
+
+.card {
+	background-color: rgb(101, 84, 161);
+	/* height: 400px; */
+	width: 600px;
+	margin: 20px auto;
+
+	/* additional */
+	padding: 20px 20px;
+}
+
+/* 27. Style the card-img class: • Add at least 300px height. • Add at least 300px width. */
+.card-img {
+	height: 300px;
+	width: 300px;
+}
+
+/* 28. Style the "contact" footer: • Center all text inside it. • Add at least 16px
+padding on all sides. • Add at least 4px margin at the top. • Add a background
+color.  */
+#contact {
+	text-align: center;
+	padding: 16px;
+	margin-top: 4px;
+	color: white;
+	background-color: rgb(11, 8, 20);
+}
+
+#contact a {
+	color: white;
+	margin: 0 20px;
+}
