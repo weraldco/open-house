@@ -1,4 +1,9 @@
 body {
+	background-image: url(/activity/images/bg-pattern.png);
+	background-repeat: repeat;
+	background-position: top;
+	background-size: 500px;
+	background-position: fixed;
 	background-color: rgb(39, 39, 39);
 	color: white;
 }
@@ -26,7 +31,7 @@ div > h1 {
 }
 
 .card > p {
-	color: rgb(208, 194, 251);
+	color: rgb(196, 182, 238);
 }
 
 #bottom,
@@ -38,5 +43,5 @@ div > h1 {
 #bottom a,
 #top a {
 	font-size: 14px;
-	color: rgb(109, 109, 109);
+	color: rgb(196, 182, 238);
 }
